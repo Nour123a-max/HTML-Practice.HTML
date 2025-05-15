@@ -1,0 +1,29 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Positining</title>
+        <style>
+            /* .static {
+                position:static;
+            }
+            .relative {
+                position:relative;
+                top:20px;
+                left:30px;
+            } */
+
+        </style>
+        </head>
+        <body>
+            <!-- <p class="static">I am static.</p>
+            <div class="relative">I am relative.</div> -->
+
+          <div class="parent">
+            <div class="absolute">I am absolute.</div>
+
+          </div>
+            
+        </body>
+     

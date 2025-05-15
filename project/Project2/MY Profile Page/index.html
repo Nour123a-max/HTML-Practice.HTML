@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hello my name is Julian</h1>
+            <a href="#content" on>Click to learn more about me</a>
+        </div>
+    </section>
+
+    <div class="container"> 
+        <header>I enjoy coding and learning about astronomy</header>      
+        <main id="content">
+            <section class="coding">
+                    <p id="hover-text" onclick="addOrRemove()">click to reveal/hide technologies i have used before when coding</p>
+                    <ul id="tech-list"></ul>
+            <section class="astronomy">
+                <h2>One topic in astronomy that I am interested in is supermassive black holes and their role in galaxy formation</h2>
+                <p>Relevant Youtube video:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lLt9i1Z4Skw?si=Vydd7zNNM00HWO-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Relevant links:</p>
+                <ul class="astronomy-list">
+                    <li><a href="https://science.nasa.gov/universe/black-holes/types/">Types of black holes</a></li>
+                    <li><a href="https://www.tmt.org/page/supermassive-black-holes">Supermassive black holes</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <a href="https://github.com/memento-j/profile-page" target="_blank">github page</a> 
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
