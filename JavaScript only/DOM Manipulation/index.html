@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Example</title>
+    <script src="dom-manipulation.js"></script>
+    <style>
+        .highlight{
+            background-color:yellow;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Welcome to JavaScript</h1>
+    <p class="description">This is a paragraph1</p>
+       <p class="description">This is a paragraph2</p>
+          <p class="description">This is a paragraph3</p>
+    <button onclick="changeText()">Click Me</button>
+    <script>
+        function changeText(){
+            document.getElementById("main-heading").textContent = "DOM Manipulation is Awesome";
+        // }
+        //   console.log(document.getElementById("main-heading").innerText)
+        //   console.log("paragraphs =", paragraphs);
+        //   console.log("paragraphs[0].text content =", paragraphs[0].textcontent);
+
+        //   const buttons = document.getElementsByClassName("description");
+        //   console.log("buttons =", buttons[0].textContent);
+
+        //   const firstParagraph = document.querySelector(".description");
+        //   console.log(firstParagraph.textContent);
+          
+
+        //   const allParagraphs = document.querySelectorAll(".description");
+        //   console.log(allParagraphs);
+          
+
+        //   // Modify Elements
+        //   const heading = document.getElementById("main-heading");
+        //   heading.textContent = "New Heading";
+
+        //   heading.innerHTML = "<span style='color: red'>styled</span>heading";
+
+        //   heading.style.color = blue;
+        //   heading.style.fontSize = "24px";
+        //   headind.style.textAlign = "center";
+
+        //   // Adding / removing / creating
+
+        //   const newParagraph = document.createElement("p");
+        //   newParagraph.textContent = "This is a new paragraph";
+
+        //   document.body.appendChild(newParagraph);
+
+        //   document.querySelector("button").addEventListener("click", function(){
+        //     document.body.removeChild(newParagraph);
+
+        //   });
+
+        //   const heading = document.getElementById("main-heading");
+        //   heading.classList.add("highlight");
+
+          
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

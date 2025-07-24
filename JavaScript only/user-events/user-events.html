@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Events</title>
+    <!-- <script src="user.events.js"></script> -->
+</head>
+<body>
+    <button id="btn">Click Me</button>
+
+<!-- 
+   <select id="dropdown">
+        <option value="">please select</option>
+        <option value="apple">Apple</option>
+        <option value="bannana">Bannana</option>
+        <option value="mango">Mango</option>
+    </select>
+
+    <p id="output"></p> -->
+    
+
+
+<script>
+
+    function handleClick(){
+        console.log("handle click");
+        btn.removeEventListener("click", handleClick);
+    }
+
+    btn.addEventListener("click", handleClick);
+     </script>
+
+             const dropdown = document.getElementById("dropdown");
+        const output = document.getElementById("output");
+
+        dropdown.addEventListener("change", function(){
+            output.textContent = "You Selected:" + dropdown.value;
+        } )  
+
+        
+
+
+
+    
+
+    
+</body>
+</html>

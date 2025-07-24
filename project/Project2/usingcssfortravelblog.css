@@ -46,6 +46,7 @@ section {
 
 button:hover{
     background-color:lightblue;
+    cursor: pointer;
 }
     
 
